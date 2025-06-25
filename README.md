@@ -1,4 +1,4 @@
-# DesktopNoti
+# Popup!
 
 Show random cute messages and images from Google Sheets and Drive as desktop notifications. 
 Great for surprising your loved ones with sweet reminders!
