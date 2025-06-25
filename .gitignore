@@ -102,13 +102,44 @@ cython_debug/
 
 # Icon PNGs generated for packaging
 icon_*.png
+temp_icon.png
 
 # Virtual environments
+.venv/
 venv/
 ENV/
 
+test_tkinter.py
+
 # Allow credentials and config for sharing as requested
-credentials.json
-token.json
-config.json
-downloaded_images/
+# Sensitive config (never commit)
+config/*.json
+# Downloaded images
+/downloaded_images/
+# Build artifacts
+/build/
+/dist/
+/DesktopNoti.app/
+# Virtual environments
+.venv/
+venv/
+ENV/
+# System files
+.DS_Store
+# PyInstaller
+*.spec
+*.manifest
+*.spec.txt
+# IDE/project files
+.vscode/
+.idea/
+# Test/coverage
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.cache/
+.tox/
+.nox/
+.coverage*
+htmlcov/
